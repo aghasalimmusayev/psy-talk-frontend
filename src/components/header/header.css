@@ -1,0 +1,13 @@
+.header_bg {
+    height: 100vh;
+    background: #3D3C3D;
+}
+
+@media(min-width:768px){
+    .header_bg {
+        height: 110vh;
+        background-image: linear-gradient(rgba(0,0,0,0.6)),url('../../assets/img/header.png');
+        background-size: cover;
+        background-position: center;
+    }
+}

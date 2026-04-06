@@ -1,0 +1,96 @@
+.nav{
+    position: relative;
+    background: var(--color-mainbg);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    background: var(--color-bg2);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    padding: 20px 0;
+    transition: .3s;
+    overflow: hidden;
+}
+.links.open {
+    width: 80%;
+}
+.links a{
+    display: inline-block;
+    color: var(--color-text2);
+    font: 500 1rem "Arial", sans-serif;
+    margin:  8px 5%;
+    width: 100%;
+    white-space: nowrap;
+}
+.mob_reserve_button {
+    width: 90%;
+    margin:  8px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mob_reserve_button button {
+    width: 100%;
+    background: var(--color-mainbg);
+    border-radius: 7px;
+    color: var(--color-text3);
+    font: 500 1rem "Arial",sans-serif;
+    padding: 8px;
+    text-align: center;
+    white-space: nowrap;
+}
+.desk_reserve_button {display: none;}
+.menu_bar {display: initial;}
+
+@media(min-width:768px){
+    .nav{
+        background: none;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .links {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: none;
+        position: static;
+        max-width: 500px;
+        width: 100%;
+        padding: 0;
+        transition: .3s;
+    }
+    .links a{
+        color: var(--color-text3);
+        margin:  0;
+        padding: 10px 5px;
+    }
+    .mob_reserve_button {display: none;}
+    .menu_bar {display: none;}
+    .desk_reserve_button {
+        display: initial;
+        background: var(--color-mainbg);
+        margin:  0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 7px;
+    }
+    .desk_reserve_button button {
+        background: none;
+        color: var(--color-text3);
+        font: 500 1rem "Arial",sans-serif;
+        width: 150px;
+        padding: 8px;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+}
