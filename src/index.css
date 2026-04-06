@@ -6,7 +6,6 @@
 }
 li{list-style: none;}
 a{text-decoration: none;}
-body {background: #444;}
 .container {
   max-width: 1280px;
   margin: auto;
@@ -15,18 +14,16 @@ body {background: #444;}
 :root {
   --color-mainbg: #1B33B7;
   --color-bg2: #fff;
+  --color-bg3: #3D3C3D;
   
   --color-text: #000;
   --color-text2: #1B33B7;
   --color-text3: #fff;
 
-  --color-border: #e2e8f0;
+  --color-border: #1B33B7;
+  --color-border2: #3D3C3D;
 }
 
 [data-theme="dark"] {
   --color-bg: #0f172a;
-
-  --color-text: #f1f5f9;
-
-  --color-border: #334155;
 }
