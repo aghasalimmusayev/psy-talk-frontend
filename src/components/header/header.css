@@ -1,5 +1,5 @@
 .header_bg {
-    height: 65vh;
+    height: 75vh;
     background: var(--color-bg3);
 }
 .header_content {
@@ -8,26 +8,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
     text-align: center;
 }
 .welcome_text {
     font: 500 1.2rem "Rubik", sans-serif;
-    color: var(--color-text2);
+    color: var(--color-text4);
 }
 .content_heading {
     font: 450 2rem "Rubik",sans-serif;
     color: var(--color-text3);
     text-align: center;
-    width: 90%;
-    margin: auto;
 }
 .content_text {
     font: 300 0.9rem "Rubik",sans-serif;
     color: var(--color-text3);
     text-align: center;
-    width: 85%;
+    width: 90%;
     margin: auto;
+    margin-top: 10px;
 }
 .content_search_box {
     width: 280px;
@@ -59,10 +57,41 @@
     color: var(--color-text3);
     font-size: 20px;
 }
+.statics {
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--color-mainbg);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.line {
+    width: 1px;
+    height: 60px;
+    border: 1px solid var(--color-border2);
+}
+.static_results {
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.static_results .static_numbers {
+    font: 400 1rem "Rubik",sans-serif;
+    color: var(--color-text3);
+}
+.static_results .static_name {
+    font: 300 0.7rem "Rubik",sans-serif;
+    color: var(--color-text3);
+}
 
 @media(min-width:768px){
     .header_bg {
-        height: 110vh;
+        height: 100vh;
         background-image: linear-gradient(rgba(0,0,0,0.65)),url('../../assets/img/header.png');
         background-size: cover;
         background-position: center;
@@ -97,4 +126,21 @@
         border-radius: 8px;
         font-size: 24px;
     }
+    .statics {
+        max-width: 600px;
+        height: 150px;
+        border-radius: 20px;
+        position: absolute;
+        bottom: -75px;
+        margin: 0;
+    }
+    .line {height: 60px; border: 1px solid var(--color-border3);}
+    .static_results .static_numbers {font: 450 1.5rem "Rubik",sans-serif;}
+    .static_results .static_name {font: 300 1rem "Rubik",sans-serif;}
+
+}
+
+@media(min-width:1024px){
+    .header_content {padding-top: 150px;}
+
 }

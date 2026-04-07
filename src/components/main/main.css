@@ -1,0 +1,47 @@
+main {padding: 100px 0;}
+.psychologic_support {
+    position: relative;
+    margin-top: 250px;
+}
+.shadow_img {
+    width: 580px;
+    height: 560px;
+    background: var(--color-bg4);
+    border-radius: 30px;
+}
+.psy_support_img {
+    width: 580px;
+    height: 560px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    z-index: 0;
+}
+.psy_support_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.star {
+    width: 145px;
+    height: 125px;
+    position: absolute;
+    left: -40px;
+    top: -150px;
+    z-index: 10;
+}
+.star img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.psy_heading {
+    font: 500 1.8rem "Rubik",sans-serif;
+    color: var(--color-text2);
+}
+.psy_text {
+    font: 400 1rem "Rubik",sans-serif;
+    color: var(--color-text5);
+}

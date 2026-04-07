@@ -1,13 +1,13 @@
 nav {
     position: relative;
-    background: var(--color-mainbg);
-    padding: 15px;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
 }
 .nav{
+    background: var(--color-mainbg);
     position: fixed;
     top: 0;
     left: 0;
@@ -20,27 +20,25 @@ nav {
     background: var(--color-bg2);
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -5%;
     width: 0;
     padding: 20px 0;
     transition: .3s;
     overflow: hidden;
     z-index: 999;
 }
-.links.open {
-    width: 80%;
-}
+.links.open {width: 80%;}
 .links a{
     display: inline-block;
     color: var(--color-text2);
     font: 500 1rem "Arial", sans-serif;
-    margin:  8px 5%;
+    margin:  8px 10%;
     width: 100%;
     white-space: nowrap;
 }
 .mob_reserve_button {
-    width: 90%;
-    margin:  8px 5%;
+    width: 80%;
+    margin:  8px 10%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,18 +58,17 @@ nav {
 
 @media(min-width:768px){
     nav{
-        background: none;
         justify-content: space-between;
         align-items: center;
     }
-    
+    .nav{background: none;}
     .links {
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
         background: none;
         position: static;
-        max-width: 500px;
+        max-width: 550px;
         width: 100%;
         padding: 0;
         transition: .3s;
@@ -102,4 +99,7 @@ nav {
         white-space: nowrap;
     }
     
+}
+@media(min-width:1024px){
+    .links a{font-size: 1.1rem;}
 }
