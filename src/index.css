@@ -23,16 +23,24 @@ a{text-decoration: none;}
   --color-bg2: #fff;
   --color-bg3: #3D3C3D;
   --color-bg4: #D6EEFF;
+  --color-bg5: #FCFDFF;
+  --color-bg6: #FEFEFE;
   
   --color-text: #000;
   --color-text2: #1B33B7;
   --color-text3: #fff;
   --color-text4: #0600FF;
   --color-text5: #7B7B7B;
+  --color-text6: #141414;
+  --color-text7: #0B1449;
+  --color-text8: #F1B819;
 
   --color-border: #1B33B7;
   --color-border2: #3D3C3D;
   --color-border3: #FFF;
+  --color-border4: #CBCBCB;
+
+  --color-shadow: #d8deffc7;
 }
 
 [data-theme="dark"] {
