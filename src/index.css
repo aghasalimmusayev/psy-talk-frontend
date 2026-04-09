@@ -17,6 +17,8 @@ a{text-decoration: none;}
 }
 
 :root {
+  --font-main: 'Rubik', sans-serif;
+
   --color-mainbg: #1B33B7;
   --color-bg2: #fff;
   --color-bg3: #3D3C3D;

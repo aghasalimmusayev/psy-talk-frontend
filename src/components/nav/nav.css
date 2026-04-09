@@ -1,5 +1,4 @@
 nav {
-    position: relative;
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
@@ -20,7 +19,7 @@ nav {
     background: var(--color-bg2);
     position: absolute;
     top: 100%;
-    left: -5%;
+    left: 0;
     width: 0;
     padding: 20px 0;
     transition: .3s;
@@ -31,14 +30,14 @@ nav {
 .links a{
     display: inline-block;
     color: var(--color-text2);
-    font: 500 1rem "Arial", sans-serif;
-    margin:  8px 10%;
+    font: 500 1rem var(--font-main);
     width: 100%;
+    padding:  8px 5vw;
     white-space: nowrap;
 }
 .mob_reserve_button {
     width: 80%;
-    margin:  8px 10%;
+    margin:  8px auto 8px 5vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +47,7 @@ nav {
     background: var(--color-mainbg);
     border-radius: 7px;
     color: var(--color-text3);
-    font: 500 1rem "Arial",sans-serif;
+    font: 500 1rem var(--font-main);
     padding: 8px;
     text-align: center;
     white-space: nowrap;
@@ -92,7 +91,7 @@ nav {
     .desk_reserve_button button {
         background: none;
         color: var(--color-text3);
-        font: 500 1rem "Arial",sans-serif;
+        font: 500 1rem var(--font-main);
         width: 150px;
         padding: 8px;
         text-align: center;

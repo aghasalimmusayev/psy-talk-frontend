@@ -1,8 +1,21 @@
 main {padding: 100px 0;}
 .psychologic_support {
     position: relative;
-    margin-top: 250px;
 }
+.star {
+    width: 145px;
+    height: 125px;
+    position: absolute;
+    left: -15px;
+    top: -100px;
+    z-index: 10;
+}
+.star img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.psy_left {display: none;}
 .shadow_img {
     width: 580px;
     height: 560px;
@@ -24,24 +37,41 @@ main {padding: 100px 0;}
     height: 100%;
     object-fit: cover;
 }
-.star {
-    width: 145px;
-    height: 125px;
-    position: absolute;
-    left: -40px;
-    top: -150px;
-    z-index: 10;
-}
-.star img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .psy_heading {
-    font: 500 1.8rem "Rubik",sans-serif;
+    font: 500 1.8rem var(--font-main);
     color: var(--color-text2);
+    padding-top: 40px;
 }
 .psy_text {
-    font: 400 1rem "Rubik",sans-serif;
+    font: 400 1rem var(--font-main);
     color: var(--color-text5);
+    margin: 20px 0;
+}
+
+@media(min-width:768px){
+    .psychologic_support {
+        margin-top: 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .star {
+        left: -40px;
+        top: -170px;
+    }
+    .psy_left {display: initial;}
+    .psy_right {
+        padding-left: 100px;
+        max-width: 600px;
+        height: fit-content;
+        margin: 0 auto 0 0;
+    }
+    .psy_heading {
+        font: 500 2.2rem var(--font-main);
+        padding: 0;
+    }
+    .psy_text {
+        font-size: 1.2rem;
+        margin: 30px 0;
+    }
+
 }

@@ -3,7 +3,7 @@
     background: var(--color-mainbg);
     border-radius: 7px;
     color: var(--color-text3);
-    font: 500 1rem "Arial",sans-serif;
+    font: 500 1rem var(--font-main);
     padding: 8px;
     text-align: center;
     white-space: nowrap;
