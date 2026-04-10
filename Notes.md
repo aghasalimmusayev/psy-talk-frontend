@@ -1,3 +1,3 @@
 - Navbar-da active:links-de style
 - Links-de hover
-- Navbar-i fixed-den cixar, scrollTop yarat
+- scrollTop yarat
