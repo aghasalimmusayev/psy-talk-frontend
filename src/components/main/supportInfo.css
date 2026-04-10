@@ -1,5 +1,6 @@
 .psychologic_support {
     position: relative;
+    margin-top: 40px;
 }
 .star {
     width: 145px;
@@ -15,27 +16,6 @@
     object-fit: cover;
 }
 .psy_left {display: none;}
-.shadow_img {
-    width: 580px;
-    height: 560px;
-    background: var(--color-bg4);
-    border-radius: 30px;
-}
-.psy_support_img {
-    width: 580px;
-    height: 560px;
-    border-radius: 30px;
-    overflow: hidden;
-    position: absolute;
-    left: 50px;
-    bottom: 100px;
-    z-index: 0;
-}
-.psy_support_img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
 .psy_heading {
     font: 500 1.8rem var(--font-main);
     color: var(--color-text2);
@@ -48,17 +28,61 @@
 }
 
 @media(min-width:768px){
+    .psychologic_support {margin-top: 100px;}
+    .star {
+        left: -40px;
+        top: -120px;
+    }
+    .psy_left {
+        display: initial;
+        flex: 1;
+        min-width: 0;
+    }
+    .shadow_img {
+        max-width: 380px;
+        width: 100%;
+        height: 360px;
+        background: var(--color-bg4);
+        border-radius: 30px;
+    }
+    .psy_support_img {
+        max-width: 380px;
+        width: 100%;
+        height: 360px;
+        border-radius: 30px;
+        overflow: hidden;
+        position: absolute;
+        left: 50px;
+        top: -50px;
+        z-index: 0;
+    }
+    .psy_support_img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+@media(min-width:1024px){
     .psychologic_support {
-        margin-top: 250px;
+        margin-top: 170px;
         display: flex;
         justify-content: space-between;
     }
-    .star {
-        left: -40px;
-        top: -170px;
+    .star {top: -140px;}
+    .shadow_img {
+        max-width: 480px;
+        height: 460px;
     }
-    .psy_left {display: initial;}
+    .psy_support_img {
+        max-width: 420px;
+        height: 460px;
+        top: -70px;
+    }
     .psy_right {
+        flex: 1;
+        min-width: 0;
         padding-left: 100px;
         max-width: 600px;
         height: fit-content;
@@ -73,4 +97,20 @@
         margin: 30px 0;
     }
 
+}
+
+@media(min-width:1111px){
+    .psy_support_img {max-width: 480px;}
+}
+
+@media(min-width:1340px){
+    .shadow_img {
+        max-width: 580px;
+        height: 560px;
+    }
+    .psy_support_img {
+        max-width: 580px;
+        height: 560px;
+    }
+    .psy_right {padding-left: 50px;}
 }

@@ -75,3 +75,23 @@
     color: var(--color-text5);
     margin-bottom: 20px;
 }
+
+@media(min-width:768px) {
+    .psy_head {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    .psychologists {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media(min-width:1024px) {
+    .psychologists {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}

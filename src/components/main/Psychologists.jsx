@@ -14,7 +14,9 @@ export default function Psychologists() {
                     </button>
                 </div>
             </div>
-            <div className="psychologists container">
+            <div className="psychologists">
+                <Psychologist />
+                <Psychologist />
                 <Psychologist />
                 <Psychologist />
                 <Psychologist />
