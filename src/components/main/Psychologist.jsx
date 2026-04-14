@@ -9,12 +9,12 @@ import { getAllUsers } from '../../redux/slices/userSlice';
 
 export default function Psychologist() {
 
-    const users = useSelector((state) => state.users.users)
-    const dispatch = useDispatch()
-    useEffect(() => {
-        dispatch(getAllUsers())
-    }, [])
-    console.log(users)
+    // const users = useSelector((state) => state.users.users)
+    // const dispatch = useDispatch()
+    // useEffect(() => {
+    //     dispatch(getAllUsers())
+    // }, [])
+    // console.log(users)
 
     return (
         <div className='psychologist'>

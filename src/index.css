@@ -25,6 +25,8 @@ a{text-decoration: none;}
   --color-bg4: #D6EEFF;
   --color-bg5: #FCFDFF;
   --color-bg6: #FEFEFE;
+  --color-bg7: #402a1fe7;
+  --color-bg8: #D8DEFF;
   
   --color-text: #000;
   --color-text2: #1B33B7;
@@ -34,6 +36,9 @@ a{text-decoration: none;}
   --color-text6: #141414;
   --color-text7: #0B1449;
   --color-text8: #F1B819;
+  --color-text9: #FDFDFD;
+  --color-text10: #EAEEF9;
+  --color-text11: #162992;
 
   --color-border: #1B33B7;
   --color-border2: #3D3C3D;

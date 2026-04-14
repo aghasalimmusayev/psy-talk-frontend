@@ -1,4 +1,5 @@
 import './main.css'
+import FirstStep from './FirstStep'
 import Psychologists from './Psychologists'
 import SuppotInfo from './SupportInfo'
 
@@ -7,6 +8,7 @@ export default function Main() {
         <main className='container'>
             <SuppotInfo />
             <Psychologists />
+            <FirstStep />
         </main>
     )
 }
