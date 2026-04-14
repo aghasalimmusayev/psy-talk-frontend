@@ -1,4 +1,5 @@
 import '../smallComponents/button.css'
+import './psychologists.css'
 import Psychologist from "./Psychologist"
 import { GoArrowRight } from "react-icons/go";
 

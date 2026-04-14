@@ -1,5 +1,5 @@
-import firststep_img from '../../assets/img/firststep.png'
 import './firststep.css'
+import firststep_img from '../../assets/img/firststep.png'
 
 export default function FirstStep() {
     return (

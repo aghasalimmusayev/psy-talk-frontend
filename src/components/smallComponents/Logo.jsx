@@ -1,5 +1,5 @@
-import logo from '../../assets/img/logo.svg'
 import './logo.css'
+import logo from '../../assets/img/logo.svg'
 
 export default function Logo({}) {
     return (

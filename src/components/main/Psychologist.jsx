@@ -1,4 +1,3 @@
-import './psychologists.css'
 import MainButton from '../smallComponents/MainButton'
 import psychologists_img from '../../assets/img/Psychologists.jpg'
 import { FaStar } from "react-icons/fa";

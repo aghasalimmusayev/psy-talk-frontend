@@ -17,14 +17,11 @@ const Switch = ({ onChange }) => {
 }
 
 const StyledWrapper = styled.div`
-  #checkbox {
-    display: none;
-  }
-
+  #checkbox {display: none;}
   .toggle {
     position: relative;
     width: 30px;
-    height: 40px;
+    // height: 25px;
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -33,40 +30,31 @@ const StyledWrapper = styled.div`
     gap: 7px;
     transition-duration: .5s;
   }
-
   .bars {
     width: 100%;
-    height: 4px;
+    height: 3px;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 3px;
   }
-
-  #bar2 {
-    transition-duration: .3s;
-  }
-
+  #bar2 {transition-duration: .3s;}
   #checkbox:checked + .toggle .bars {
     position: absolute;
     transition-duration: .5s;
   }
-
   #checkbox:checked + .toggle #bar2 {
     transform: scaleX(0);
     transition-duration: .5s;
   }
-
   #checkbox:checked + .toggle #bar1 {
     width: 100%;
     transform: rotate(45deg);
     transition-duration: .5s;
   }
-
   #checkbox:checked + .toggle #bar3 {
     width: 100%;
     transform: rotate(-45deg);
     transition-duration: .5s;
   }
-
   #checkbox:checked + .toggle {
     transition-duration: .5s;
     transform: rotate(180deg);

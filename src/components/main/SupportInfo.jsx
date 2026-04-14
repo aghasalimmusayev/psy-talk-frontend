@@ -1,4 +1,3 @@
-import './main.css'
 import './supportInfo.css'
 import psyImg from '../../assets/img/pyschologic_support.png'
 import star from '../../assets/img/star.png'

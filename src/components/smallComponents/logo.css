@@ -1,13 +1,7 @@
-.logo {
-    background: var(--color-mainbg);
-}
-.logo img{
-    width: 100%;
-}
+.logo {background: var(--color-mainbg);}
+.logo img{width: 150px; display: block;}
 
 @media(min-width:768px){
-    .logo {
-        background: none;
-    }
-
+    .logo {background: none;}
+    .logo img{width: 200px;}
 }
