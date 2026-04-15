@@ -1,7 +1,7 @@
 import './header.css'
 import { FiSearch } from "react-icons/fi";
 
-export default function Header() {
+export default function MainHeader() {
     return (
         <div className='header_bg'>
             <div className='header_content container'>

@@ -1,17 +1,19 @@
 import './App.css'
-import Footer from './components/footer/Footer'
-import Header from './components/header/Header'
+import { Route, Routes } from 'react-router-dom'
 import Main from './components/main/Main'
-import Nav from './components/nav/Nav'
+import Layout from './layout/Layout'
 
 function App() {
 
   return (
     <>
-      <Nav />
-      <Header />
-      <Main />
-      <Footer />
+      <Routes>
+
+        <Route path='/' element={<Layout />} >
+          <Route index element={<Main />} />
+        </Route >
+
+      </Routes>
     </>
   )
 }

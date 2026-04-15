@@ -86,9 +86,9 @@
     .psychologists {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* width: auto; */
         gap: 20px;
         padding: 20px 5px;
+        overflow: initial;
     }
     .psychologist {
         width: 100%;
