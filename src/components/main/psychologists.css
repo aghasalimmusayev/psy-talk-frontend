@@ -1,38 +1,37 @@
-#psychologists {
-    padding: 50px 0;
-}
+#psychologists {padding: 50px 0;}
 .psy_head {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
     margin-bottom: 30px;
 }
 .psy_section_heading {
-    font: 500 2rem var(--font-main);
+    font: 500 1.5rem var(--font-main);
     color: var(--color-text7);
 }
 .all_psy_button {
     width: 170px !important;
-    font: 400 1rem var(--font-main) !important;
+    font: 300 1rem var(--font-main) !important;
     display: flex;
     align-items: center;
     gap: 5px;
 }
 .psychologists {
     display: flex;
-    flex-direction: column;
-    gap: 25px;
+    gap: 10px;
+    overflow-x: scroll;
+    padding: 20px 5px;
 }
 .psychologist {
-    width: 100%;
+    width: 230px;
+    flex-shrink: 0;
     border-radius: 14px;
     padding: 18px 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background: var(--color-bg6);
-    box-shadow: 0px 0px 15px 1px var(--color-shadow);
+    box-shadow: 0 1px 10px 1px var(--color-shadow);
 }
 .psychologist img {
     width: 140px;
@@ -73,8 +72,10 @@
 .psychologist_text {
     font: 400 0.8rem var(--font-main);
     color: var(--color-text5);
+    text-align: center;
     margin-bottom: 20px;
 }
+.psychologist button {font: 300 1rem var(--font-main);}
 
 @media(min-width:768px) {
     .psy_head {
@@ -85,13 +86,25 @@
     .psychologists {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        /* width: auto; */
+        gap: 20px;
+        padding: 20px 5px;
     }
+    .psychologist {
+        width: 100%;
+        border-radius: 20px;
+        padding: 18px;
+    }
+    .psy_section_heading {font-size: 2.2rem;}
 }
 
 @media(min-width:1024px) {
     .psychologists {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        width: auto;
     }
-
+    .psychologist button {font-weight: 400;}
 }
+
+@media(min-width:1220px) {.psychologists {grid-template-columns: repeat(4, 1fr);}}

@@ -52,7 +52,7 @@ a{text-decoration: none;}
   --color-border4: #CBCBCB;
   --color-border5: #D0D0D0;
 
-  --color-shadow: #d8deffc7;
+  --color-shadow: #d8deffdd;
 }
 
 [data-theme="dark"] {

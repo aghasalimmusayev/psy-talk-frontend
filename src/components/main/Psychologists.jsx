@@ -19,6 +19,8 @@ export default function Psychologists() {
                 <Psychologist />
                 <Psychologist />
                 <Psychologist />
+                <Psychologist />
+                <Psychologist />
             </div>
         </section >
     )
