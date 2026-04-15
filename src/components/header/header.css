@@ -3,7 +3,7 @@
     background: var(--color-bg3);
 }
 .header_content {
-    padding-top: 30px;
+    padding-top: 100px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@
         height: 90vh;
         background-image: linear-gradient(rgba(0,0,0,0.65)),url('../../assets/img/header.png');
         background-size: cover;
-        background-position: top;
+        /* background-position: top; */
     }
     .header_content {
         gap: 20px;
@@ -140,6 +140,5 @@
 }
 
 @media(min-width:1024px){
-    .header_content {padding-top: 100px;}
-
+    .header_content {padding-top: 130px;}
 }

@@ -1,15 +1,22 @@
 import './nav.css'
 import Logo from '../smallComponents/Logo'
 import Switch from './MenuSwitch'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export default function Nav() {
 
     const [links, setLinks] = useState(false)
+    const [scrolled, setScrolled] = useState(false)
+
+    useEffect(() => {
+        const handleScroll = () => setScrolled(window.scrollY > 80)
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
 
     return (
-        <div className='nav'>
-            <nav className='container'>
+        <nav className={scrolled ? 'scrolled' : ''}>
+            <div className='nav_content container'>
                 <Logo />
                 <ul className={`links ${links ? 'open' : ''}`}>
                     <li><a href="">Ana səhifə</a></li>
@@ -21,7 +28,7 @@ export default function Nav() {
                 </ul>
                 <div className='desk_reserve_button'><button>Görüş təyin et</button></div>
                 <div className='menu_bar'><Switch onChange={setLinks} /></div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     )
 }

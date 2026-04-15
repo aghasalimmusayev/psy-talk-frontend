@@ -1,17 +1,16 @@
-nav {
+.nav_content {
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
-.nav{
+nav{
     background: var(--color-mainbg);
     position: relative;
-    /* position: fixed;
+    position: fixed;
     top: 0;
-    left: 0; */
-    /* z-index: 999; */
+    left: 0;
+    z-index: 999;
     width: 100%;
 }
 .links {
@@ -56,12 +55,19 @@ nav {
 .desk_reserve_button {display: none;}
 .menu_bar {display: initial;}
 
-@media(min-width:768px){
-    nav{
+@media(min-width:910px){
+    .nav_content {
         justify-content: space-between;
         align-items: center;
     }
-    .nav{background: none;}
+    nav{
+        background: none;
+        transition: background .3s ease;
+    }
+    nav.scrolled {background: var(--color-mainbg);}
+    nav.scrolled .links a {color: var(--color-text3);}
+    nav.scrolled .desk_reserve_button {background: var(--color-bg2);}
+    nav.scrolled .desk_reserve_button button {color: var(--color-mainbg);}
     .links {
         flex-direction: row;
         justify-content: space-between;
@@ -100,6 +106,5 @@ nav {
     }
     
 }
-@media(min-width:1024px){
-    .links a{font-size: 1.1rem;}
-}
+
+@media(min-width:1024px){.links a{font-size: 1.1rem;}}
