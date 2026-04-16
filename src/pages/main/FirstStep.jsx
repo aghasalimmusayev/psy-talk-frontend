@@ -1,9 +1,9 @@
-import './firststep.css'
+import '../../styles/firststep.css'
 import firststep_img from '../../assets/img/firststep.png'
 
 export default function FirstStep() {
     return (
-        <div className='firststep'>
+        <div className='firststep container'>
             <div className='firststep_img'>
                 <img src={firststep_img} alt="firstStep" />
             </div>

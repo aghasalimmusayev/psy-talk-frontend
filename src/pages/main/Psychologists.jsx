@@ -1,11 +1,10 @@
-import '../smallComponents/button.css'
-import './psychologists.css'
+import '../../styles/psychologists.css'
 import Psychologist from "./Psychologist"
 import { GoArrowRight } from "react-icons/go";
 
 export default function Psychologists() {
     return (
-        <section id="psychologists">
+        <section id="psychologists" className='container'>
             <div className='psy_head'>
                 <h2 className="psy_section_heading">Psixoloqlar</h2>
                 <div className="main_button">

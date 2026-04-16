@@ -1,4 +1,4 @@
-import './button.css'
+import '../../styles/button.css'
 
 export default function MainButton({ text }) {
     return (

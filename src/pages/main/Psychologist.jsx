@@ -1,4 +1,4 @@
-import MainButton from '../smallComponents/MainButton'
+import MainButton from '../../components/common/MainButton'
 import psychologists_img from '../../assets/img/Psychologists.jpg'
 import { FaStar } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";

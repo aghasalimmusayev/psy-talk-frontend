@@ -1,5 +1,5 @@
-import './nav.css'
-import Logo from '../smallComponents/Logo'
+import '../../styles/nav.css'
+import Logo from '../common/Logo'
 import Switch from './MenuSwitch'
 import { useState, useEffect } from 'react'
 

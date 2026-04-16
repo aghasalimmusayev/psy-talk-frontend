@@ -1,5 +1,5 @@
-import Logo from '../smallComponents/Logo'
-import './footer.css'
+import Logo from '../common/Logo'
+import '../../styles/footer.css'
 
 export default function Footer() {
     return (

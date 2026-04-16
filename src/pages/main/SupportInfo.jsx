@@ -1,11 +1,11 @@
-import './supportInfo.css'
+import '../../styles/supportInfo.css'
 import psyImg from '../../assets/img/pyschologic_support.png'
 import star from '../../assets/img/star.png'
-import MainButton from '../smallComponents/MainButton'
+import MainButton from '../../components/common/MainButton'
 
 export default function Main() {
     return (
-        <div className='psychologic_support'>
+        <div className='psychologic_support container'>
             <div className='star'>
                 <img src={star} alt="star" />
             </div>

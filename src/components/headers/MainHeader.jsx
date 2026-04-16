@@ -1,4 +1,4 @@
-import './header.css'
+import '../../styles/header.css'
 import { FiSearch } from "react-icons/fi";
 
 export default function MainHeader() {

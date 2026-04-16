@@ -1,10 +1,10 @@
-import './faq.css'
+import '../../styles/faq.css'
 import fag_img from '../../assets/img/faq.jpg'
 import Question from './Question'
 
 export default function Faq() {
     return (
-        <div className='faq_section'>
+        <div className='faq_section container'>
             <h2 className='faq_heading'>Tez-tez soruşulan suallar</h2>
             <p className='faq_text'>Terapiya emosional rifahınızı yaxşılaşdırmaq üçün lisenziyalı bir mütəxəssislə
                 dəstəkləyici və konstruktiv söhbətdir.</p>
