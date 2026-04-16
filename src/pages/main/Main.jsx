@@ -7,7 +7,7 @@ import MainHeader from '../../components/headers/MainHeader'
 
 export default function Main() {
     return (
-        <main>
+        <main id='main_page'>
             <MainHeader />
             <SuppotInfo />
             <Psychologists />

@@ -5,7 +5,7 @@
     align-items: center;
 }
 nav{
-    background: var(--color-mainbg);
+    /* background: var(--color-mainbg); */
     position: relative;
     position: fixed;
     top: 0;
