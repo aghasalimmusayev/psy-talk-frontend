@@ -1,7 +1,8 @@
 import Header from '../../components/headers/Header'
 import '../../styles/about.css'
+import Whywe from './Whywe'
 
-export default function Haqqimizda() {
+export default function About() {
     return (
         <main id='about'>
             <Header
@@ -9,6 +10,7 @@ export default function Haqqimizda() {
                 text={`Həyat bəzən çətin anlarla dolu ola bilər və dəstəyə ehtiyac duyduğunuzda,
                      biz sizin üçün buradayıq. Komandamız sizə uyğun psixoloqu tapmaqda kömək edir`}
             />
+            <Whywe />
         </main>
     )
 }

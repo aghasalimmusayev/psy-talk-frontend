@@ -4,6 +4,9 @@
     justify-content: space-between;
     align-items: center;
 }
+nav.scrolled {background: var(--color-mainbg);}
+nav.scrolled .desk_reserve_button {background: var(--color-bg2);}
+nav.scrolled .desk_reserve_button button {color: var(--color-mainbg);}
 nav{
     /* background: var(--color-mainbg); */
     position: relative;
@@ -12,6 +15,7 @@ nav{
     left: 0;
     z-index: 999;
     width: 100%;
+    transition: background .5s ease;
 }
 .links {
     display: flex;
@@ -60,14 +64,8 @@ nav{
         justify-content: space-between;
         align-items: center;
     }
-    nav{
-        background: none;
-        transition: background .3s ease;
-    }
-    nav.scrolled {background: var(--color-mainbg);}
+    nav{background: none;}
     nav.scrolled .links a {color: var(--color-text3);}
-    nav.scrolled .desk_reserve_button {background: var(--color-bg2);}
-    nav.scrolled .desk_reserve_button button {color: var(--color-mainbg);}
     .links {
         flex-direction: row;
         justify-content: space-between;
@@ -94,6 +92,7 @@ nav{
         align-items: center;
         justify-content: center;
         border-radius: 7px;
+        transition: .5s;
     }
     .desk_reserve_button button {
         background: none;

@@ -32,6 +32,8 @@ a{text-decoration: none;}
   --color-bg11: #137FEC;
   --color-bg12: #3B53D7;
   --color-bg13: #080F37;
+  --color-bg14: #F7F8FF;
+  --color-bg15: #FCF6FF;
   
   --color-text: #000;
   --color-text2: #1B33B7;
@@ -47,12 +49,17 @@ a{text-decoration: none;}
   --color-text12: #111418;
   --color-text13: #137FEC;
   --color-text14: #CBCBCB;
+  --color-text15: #1E3A5F;
 
   --color-border: #1B33B7;
   --color-border2: #3D3C3D;
   --color-border3: #FFF;
   --color-border4: #CBCBCB;
   --color-border5: #D0D0D0;
+  --color-border6: #D6EEFF;
+  --color-border7: #A8D8F0;
+  --color-border8: #E8E6E6;
+  --color-border9: #F2F2F2;
 
   --color-shadow: #d8deffdd;
 }
