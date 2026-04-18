@@ -1,0 +1,103 @@
+#about_therapy {padding: 50px 0;}
+#about_therapy .container {
+    width: 100%;
+    padding-left: 5%;
+}
+.about_therapy_content_heading {
+    font: 400 1.2rem var(--font-main);
+    color: var(--color-text7);
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.about_therapy_content {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 15px;
+    overflow-x: scroll;
+    padding: 40px 0 20px;
+}
+.a_th_cont {
+    width: 170px;
+    height: 310px;
+    flex-shrink: 0;
+    padding: 20px 8px 8px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.cont1 {background: var(--color-bg14);}
+.cont2 {background: var(--color-bg15);}
+.cont3 {background: var(--color-bg16);}
+.a_th_cont_heading {
+    font: 400 1rem var(--font-main);
+    color: var(--color-text6);
+}
+.a_th_cont_text {
+    font: 400 0.7rem var(--font-main);
+    color: var(--color-text5);
+    margin: 15px 0;
+}
+.a_th_cont img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: auto;
+}
+
+@media(min-width:600px) {
+    .a_th_cont {
+        width: 200px;
+        padding: 30px 15px 15px;
+    }
+}
+
+@media(min-width:768px) {
+    #about_therapy .container {
+        width: 90%;
+        padding-left: 0;
+    }
+    .about_therapy_content {
+        flex-wrap: initial;
+        justify-content: space-between;
+        gap: initial;
+        overflow: initial;
+    }
+    .a_th_cont {
+        width: 30%;
+        border-radius: 10px;
+    }
+    .cont1 {margin-top: 45px;}
+    .cont3 {margin-top: 30px;}
+}
+
+@media(min-width:1024px) {
+    .a_th_cont_heading {font-size: 1.2rem;}
+    .a_th_cont_text {font-size: 0.9rem;}
+    .a_th_cont {
+        height: 380px;
+        border-radius: 15px;
+    }
+    .a_th_cont img {
+        height: 170px;
+        border-radius: 5px;
+    }
+}
+
+@media(min-width:1220px) {
+    .a_th_cont_heading {font-size: 1.5rem;}
+    .a_th_cont_text {
+        font-size: 1.1rem;
+        height: 140px;
+    }
+    .a_th_cont {
+        height: 510px;
+        padding: 40px 20px 20px;
+        border-radius: 20px;
+    }
+    .a_th_cont img {
+        height: 250px;
+        border-radius: 10px;
+    }
+}

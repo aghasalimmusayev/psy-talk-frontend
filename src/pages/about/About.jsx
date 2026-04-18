@@ -1,5 +1,6 @@
 import Header from '../../components/headers/Header'
 import '../../styles/about.css'
+import AboutTherapy from './AboutTherapy'
 import Whywe from './Whywe'
 
 export default function About() {
@@ -11,6 +12,7 @@ export default function About() {
                      biz sizin üçün buradayıq. Komandamız sizə uyğun psixoloqu tapmaqda kömək edir`}
             />
             <Whywe />
+            <AboutTherapy />
         </main>
     )
 }

@@ -8,7 +8,6 @@ nav.scrolled {background: var(--color-mainbg);}
 nav.scrolled .desk_reserve_button {background: var(--color-bg2);}
 nav.scrolled .desk_reserve_button button {color: var(--color-mainbg);}
 nav{
-    /* background: var(--color-mainbg); */
     position: relative;
     position: fixed;
     top: 0;
@@ -38,7 +37,9 @@ nav{
     width: 100%;
     padding:  8px 5vw;
     white-space: nowrap;
+    transition: .5s;
 }
+.links a.active{color: var(--color-text13);}
 .mob_reserve_button {
     width: 80%;
     margin:  8px auto 8px 5vw;
@@ -81,7 +82,9 @@ nav{
         color: var(--color-text3);
         margin:  0;
         padding: 10px 5px;
+        border-bottom: 2px solid transparent;
     }
+    .links a.active{border-color: var(--color-border3); color: var(--color-text3);}
     .mob_reserve_button {display: none;}
     .menu_bar {display: none;}
     .desk_reserve_button {
