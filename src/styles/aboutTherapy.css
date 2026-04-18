@@ -58,6 +58,10 @@
         width: 90%;
         padding-left: 0;
     }
+    .about_therapy_content_heading {
+        font: 400 1.5rem var(--font-main);
+        width: 80%;
+    }
     .about_therapy_content {
         flex-wrap: initial;
         justify-content: space-between;
@@ -73,6 +77,10 @@
 }
 
 @media(min-width:1024px) {
+    .about_therapy_content_heading {
+        font: 400 1.8rem var(--font-main);
+        width: 60%;
+    }
     .a_th_cont_heading {font-size: 1.2rem;}
     .a_th_cont_text {font-size: 0.9rem;}
     .a_th_cont {
@@ -86,6 +94,7 @@
 }
 
 @media(min-width:1220px) {
+    .about_therapy_content_heading {font: 400 2rem var(--font-main);}
     .a_th_cont_heading {font-size: 1.5rem;}
     .a_th_cont_text {
         font-size: 1.1rem;

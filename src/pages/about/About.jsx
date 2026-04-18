@@ -1,7 +1,8 @@
-import Header from '../../components/headers/Header'
 import '../../styles/about.css'
+import Header from '../../components/headers/Header'
 import AboutTherapy from './AboutTherapy'
 import Whywe from './Whywe'
+import Whywe2 from './Whywe2'
 
 export default function About() {
     return (
@@ -13,6 +14,7 @@ export default function About() {
             />
             <Whywe />
             <AboutTherapy />
+            <Whywe2 />
         </main>
     )
 }
