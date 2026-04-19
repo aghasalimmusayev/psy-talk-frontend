@@ -1,0 +1,24 @@
+#services .header_bg {
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/services.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#services .content_heading {width: 90%;}
+#services .content_text {width: 95%;}
+
+@media(min-width:768px) {
+    #services .header_bg {
+        height: 70vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/services.png');
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #services .content_heading {width: 80%;}
+    #services .content_text {width: 80%;}
+}

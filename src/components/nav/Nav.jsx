@@ -1,7 +1,8 @@
-import { NavLink } from 'react-router-dom'
 import Logo from '../common/Logo'
 import Switch from './MenuSwitch'
+import { NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
+import { IoIosArrowRoundBack } from "react-icons/io";
 import '../../styles/nav.css'
 
 export default function Nav() {
@@ -15,14 +16,24 @@ export default function Nav() {
         return () => window.removeEventListener('scroll', handleScroll)
     }, [])
 
+    useEffect(() => {
+        document.body.style.overflow = links ? 'hidden' : ''
+        return () => { document.body.style.overflow = '' }
+    }, [links])
+
     return (
         <nav className={scrolled ? 'scrolled' : ''}>
             <div className='nav_content container'>
                 <Logo />
                 <ul className={`links ${links ? 'open' : ''}`}>
+                    <div className='links_close_btn'>
+                        <IoIosArrowRoundBack
+                            style={{ fontSize: "28px", display: "block" }}
+                            onClick={() => setLinks(false)} />
+                    </div>
                     <li><NavLink onClick={() => setLinks(false)} to={'/'}>Ana səhifə</NavLink></li>
                     <li><NavLink onClick={() => setLinks(false)} to={'/about'}>Haqqımızda</NavLink></li>
-                    <li><NavLink onClick={() => setLinks(false)} to={'/survices'}>Xidmətlərimiz</NavLink></li>
+                    <li><NavLink onClick={() => setLinks(false)} to={'/services'}>Xidmətlərimiz</NavLink></li>
                     <li><NavLink onClick={() => setLinks(false)} to={'/psychologists'}>Psixoloqlar</NavLink></li>
                     <li><NavLink onClick={() => setLinks(false)} to={'/contact'}>Əlaqə</NavLink></li>
                     <li className='mob_reserve_button'><button>Görüş təyin et</button></li>

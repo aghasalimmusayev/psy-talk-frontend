@@ -1,14 +1,14 @@
 .psychologic_support {
     position: relative;
     margin-top: 40px;
-    padding: 50px 0;
+    padding: 75px 0;
 }
 .star {
     width: 145px;
     height: 125px;
     position: absolute;
     left: -15px;
-    top: -30px;
+    top: 0px;
     z-index: 10;
 }
 .star img {

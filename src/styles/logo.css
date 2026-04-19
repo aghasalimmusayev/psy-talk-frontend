@@ -1,5 +1,5 @@
-/* .logo {background: var(--color-mainbg);} */
 .logo img{width: 150px; display: block;}
+.logo a {outline: none;}
 
 @media(min-width:768px){
     .logo {background: none;}

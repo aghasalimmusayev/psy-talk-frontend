@@ -8,11 +8,10 @@
 }
 
 @media(min-width:768px) {
-#about .header_bg {
-    height: 70vh;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    /* background-position: center; */
-}
+    #about .header_bg {
+        height: 70vh;
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
 
 }

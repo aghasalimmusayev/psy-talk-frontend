@@ -1,9 +1,11 @@
 .main_header {
-    height: 75vh;
-    background: var(--color-bg3);
+    height: 55vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65)),url('../assets/img/header.png');
+    background-position: center;
+    background-size: cover;
 }
 .main_header_content {
-    padding-top: 100px;
+    padding-top: 70px;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -11,11 +13,11 @@
     text-align: center;
 }
 .welcome_text {
-    font: 500 1.2rem var(--font-main);
-    color: var(--color-text4);
+    font: 400 0.9rem var(--font-main);
+    color: var(--color-text3);
 }
 .content_heading {
-    font: 450 2rem var(--font-main);
+    font: 400 1.7rem var(--font-main);
     color: var(--color-text3);
     text-align: center;
 }
@@ -34,6 +36,7 @@
     height: 36px;
 }
 .content_search_box input:focus {border: 1px solid var(--color-border);}
+.content_search_box input::placeholder {font-size: 0.8rem;}
 .content_search_box input {
     width: 100%;
     height: 100%;
@@ -92,17 +95,16 @@
 @media(min-width:768px){
     .main_header {
         height: 90vh;
-        background-image: linear-gradient(rgba(0,0,0,0.65)),url('../assets/img/header.png');
-        background-size: cover;
+        background-position: top;
     }
     .main_header_content {gap: 20px;}
-    .welcome_text {font-size: 1.5rem;}
+    .welcome_text {font-size: 1.2rem;}
     .content_heading {
-        font-size: 2.5rem;
+        font-size: 3rem;
         width: 500px;
     }
     .content_text {
-        font: 400 1rem var(--font-main);
+        font: 400 1.2rem var(--font-main);
         width: 500px;
     }
     .content_search_box {
@@ -110,7 +112,7 @@
         margin: 30px auto;
         height: 40px;
     }
-    .content_search_box input::placeholder {font-size: 1.2rem;}
+    .content_search_box input::placeholder {font-size: 1rem;}
     .content_search_box input {
         padding: 12px;
         border: 1px solid transparent;
@@ -136,6 +138,4 @@
 
 }
 
-@media(min-width:1024px){
-    .main_header_content {padding-top: 130px;}
-}
+@media(min-width:1024px){.main_header_content {padding-top: 130px;}}
