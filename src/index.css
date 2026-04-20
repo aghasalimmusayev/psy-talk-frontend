@@ -37,6 +37,7 @@ a{text-decoration: none;}
   --color-bg16: #F0F2FF;
   --color-bg17: #2B2B2BA6;
   --color-bg18: #0B1449;
+  --color-bg19: #5B483F;
   
   --color-text: #000;
   --color-text2: #1B33B7;
@@ -56,6 +57,8 @@ a{text-decoration: none;}
   --color-text16: #EBEBEB;
   --color-text17: #A0A0A0;
   --color-text18: #2B2B2B;
+  --color-text19: #080F37;
+  --color-text20: #3B53D7;
 
   --color-border: #1B33B7;
   --color-border2: #3D3C3D;

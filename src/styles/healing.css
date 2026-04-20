@@ -44,3 +44,27 @@
     border-radius: 8px;
     padding: 10px 20px;
 }
+
+@media(min-width:910px) {
+    #healing .container{width: 90%;}
+    .healing_content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: initial;
+    }
+    .healing_img {width: 45%;}
+    .healing_content_inside {
+        width: 52%;
+        margin: 0;
+    }    
+}
+
+@media(min-width:1220px) {
+    .healing_img {height: 500px;}
+    .healing_heading {font-size: 1.7rem;}
+    .healing_text {font-size: 1.1rem;}
+    .healing_types li {font-size: 1rem;}
+    .healing_types li::marker {font-size: 16px;}
+    .other_healing_types a {font-size: 1.2rem;}
+}
