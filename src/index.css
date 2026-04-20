@@ -55,6 +55,7 @@ a{text-decoration: none;}
   --color-text15: #1E3A5F;
   --color-text16: #EBEBEB;
   --color-text17: #A0A0A0;
+  --color-text18: #2B2B2B;
 
   --color-border: #1B33B7;
   --color-border2: #3D3C3D;
@@ -65,6 +66,7 @@ a{text-decoration: none;}
   --color-border7: #A8D8F0;
   --color-border8: #E8E6E6;
   --color-border9: #F2F2F2;
+  --color-border10: #162992;
 
   --color-shadow: #d8deffdd;
 }

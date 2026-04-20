@@ -1,3 +1,2 @@
-- Navbar-da active:links-de style
 - Links-de hover
 - scrollTop yarat

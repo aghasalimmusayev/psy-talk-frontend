@@ -1,4 +1,4 @@
-#ourServices .header_bg {
+#ServiceDetail .header_bg {
     height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/services.png');
     background-size: cover;
@@ -7,15 +7,21 @@
     align-items: center;
     justify-content: center;
 }
-#ourServices .content_heading {width: 98%;}
-#ourServices .content_text {width: 95%;}
+#ServiceDetail .content_heading {
+    width: 97%;
+    margin: auto;
+}
+#ServiceDetail .content_text {
+    width: 97%;
+    margin: auto;
+}
 
 @media(min-width:768px) {
-    #services .header_bg {
+    #ServiceDetail .header_bg {
         height: 70vh;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/services.png');
         background-size: cover;
+        background-position: center;
     }
-    #ourServices .content_heading {width: 80%;}
-    #ourServices .content_text {width: 80%;}
+    #ServiceDetail .content_heading {width: 70%;}
+    #ServiceDetail .content_text {width: 70%;}
 }
