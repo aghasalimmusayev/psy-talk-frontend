@@ -21,7 +21,7 @@ export default function Main() {
                     etməkdir. Platformamız vasitəsilə istifadəçilər fərqli sahələr üzrə ixtisaslaşmış psixoloqlarla əlaqə
                     yarada, onların profillərini incələyə və ehtiyaclarına uyğun mütəxəssisi seçə bilirlər.
                 </p>
-                <MainButton text={"Ətraflı bax"} />
+                <MainButton text={"Ətraflı bax"} to={'/'}/>
             </div>
         </div>
     )

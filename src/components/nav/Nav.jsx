@@ -1,6 +1,6 @@
 import Logo from '../common/Logo'
 import Switch from './MenuSwitch'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 import { IoIosArrowRoundBack } from "react-icons/io";
 import '../../styles/nav.css'
@@ -36,9 +36,9 @@ export default function Nav() {
                     <li><NavLink onClick={() => setLinks(false)} to={'/services'}>Xidmətlərimiz</NavLink></li>
                     <li><NavLink onClick={() => setLinks(false)} to={'/psychologists'}>Psixoloqlar</NavLink></li>
                     <li><NavLink onClick={() => setLinks(false)} to={'/contact'}>Əlaqə</NavLink></li>
-                    <li className='mob_reserve_button'><button>Görüş təyin et</button></li>
+                    <li className='mob_reserve_button'><Link to={'/'}>Görüş təyin et</Link></li>
                 </ul>
-                <div className='desk_reserve_button'><button>Görüş təyin et</button></div>
+                <div className='desk_reserve_button'><Link to={'/'}>Görüş təyin et</Link></div>
                 <div className='menu_bar'><Switch onChange={setLinks} checked={links} /></div>
             </div>
         </nav>

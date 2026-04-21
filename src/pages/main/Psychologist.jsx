@@ -32,7 +32,7 @@ export default function Psychologist() {
             </div>
             <hr className='psychologist_hr' />
             <p className='psychologist_text'>Peşəkar və qayğıkeş psixoloq sizin yanınızda</p>
-            <MainButton text={"Qəbula yazılmaq"} />
+            <MainButton text={"Qəbula yazılmaq"} to={'/'} />
         </div>
     )
 }

@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom'
 import '../../styles/button.css'
 
-export default function MainButton({ text }) {
+export default function MainButton({ text, to }) {
     return (
         <div className="main_button">
-            <Link to={"/"}>{text}</Link>
+            <Link to={to}>{text}</Link>
         </div>
     )
 }

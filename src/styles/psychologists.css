@@ -10,10 +10,16 @@
     color: var(--color-text7);
 }
 .all_psy_button {
-    width: 170px !important;
-    font: 300 1rem var(--font-main) !important;
+    width: 200px;
+    font: 400 1.1rem var(--font-main) !important;
+    color: var(--color-text9);
+    background: var(--color-mainbg);
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 5px;
 }
 .psychologists {

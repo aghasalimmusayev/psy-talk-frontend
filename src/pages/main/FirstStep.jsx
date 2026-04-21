@@ -1,5 +1,6 @@
 import '../../styles/firststep.css'
 import firststep_img from '../../assets/img/firststep.png'
+import { Link } from 'react-router-dom'
 
 export default function FirstStep() {
     return (
@@ -12,7 +13,7 @@ export default function FirstStep() {
                 <p className='firststep_offer_text'>Dəstək və anlayış dolu mühitdə hisslərinizi paylaşın,
                     özünüzü daha yaxşı tanıyın və daha balanslı həyat qurmağa başlayın.</p>
                 <div className='firststep_button'>
-                    <button>Qəbula yazılmaq</button>
+                    <Link to={'/'}>Qəbula yazılmaq</Link>
                 </div>
             </div>
         </div>

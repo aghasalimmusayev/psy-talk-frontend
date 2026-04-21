@@ -1,0 +1,110 @@
+.contactPage_inside {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+}
+#contactPage .header_bg {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/contact_header.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#contactPage .content_heading {width: 90%;}
+#contactPage .content_text {width: 95%;}
+#contactPage .content_search_box {display: none;}
+
+/* <<--CONTACT INFO-->> */
+
+.contact_heading {
+    font: 400 1.5rem var(--font-main);
+    color: var(--color-text21);
+}
+.contact_heading2 {
+    font: 450 1.5rem var(--font-main);
+    color: var(--color-text22);
+    margin: 10px 0 15px;
+}
+.contact_text {
+    font: 400 1rem var(--font-main);
+    color: var(--color-text5);
+    line-height: 24px;
+}
+.contact_line {
+    border: 1px solid var(--color-border4);
+    margin: 20px 0 30px;
+}
+.contact_routes {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.contact_routes span {display: flex;}
+.contact_routes a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 90%;
+    margin-left: 0;
+    font: 400 1rem var(--font-main);
+    color: var(--color-text20);
+}
+
+/* <<--CONTACT FORM-->> */
+.contact_form {
+    padding: 32px 16px;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px 1px var(--color-shadow);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.input_field {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.contact_form input, .contact_form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid var(--color-border4);
+    border-radius: 6px;
+    font: 400 1.1rem var(--font-main);
+    color: var(--color-text5);
+}
+.contact_form textarea {min-height: 120px;}
+.contact_form input:focus, .contact_form textarea:focus {
+    outline: none;
+    border-color: var(--color-border);
+}
+.contact_form_btn {
+    font: 400 1.2rem var(--font-main);
+    color: var(--color-text9);
+    background: var(--color-mainbg);
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+
+@media(min-width:768px) {
+    .input_field {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
+    }
+    .contact_form_btn {width: 200px;}
+}
+
+@media(min-width:1024px) {
+    .contactPage_inside {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}

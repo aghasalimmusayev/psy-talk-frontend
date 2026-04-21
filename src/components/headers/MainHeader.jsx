@@ -3,7 +3,7 @@ import { FiSearch } from "react-icons/fi";
 
 export default function MainHeader() {
     return (
-        <div className='main_header'>
+        <main className='main_header'>
             <div className='main_header_content container'>
                 <p className='welcome_text'>Welcome to PSYTALK</p>
                 <h1 className='content_heading'>Find your peace & understand yourself.</h1>
@@ -31,6 +31,6 @@ export default function MainHeader() {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }

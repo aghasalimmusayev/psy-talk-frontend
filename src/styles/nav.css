@@ -6,7 +6,7 @@
 }
 nav.scrolled {background: var(--color-mainbg);}
 nav.scrolled .desk_reserve_button {background: var(--color-bg2);}
-nav.scrolled .desk_reserve_button button {color: var(--color-mainbg);}
+nav.scrolled .desk_reserve_button a {color: var(--color-mainbg);}
 nav{
     position: relative;
     position: fixed;
@@ -52,7 +52,7 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.mob_reserve_button button {
+.mob_reserve_button a {
     width: 100%;
     background: var(--color-mainbg);
     border-radius: 7px;
@@ -105,7 +105,7 @@ nav{
         border-radius: 7px;
         transition: .5s;
     }
-    .desk_reserve_button button {
+    .desk_reserve_button a {
         background: none;
         color: var(--color-text3);
         font: 500 1rem var(--font-main);

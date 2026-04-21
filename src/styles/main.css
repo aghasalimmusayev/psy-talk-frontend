@@ -1,1 +1,26 @@
 #main_page {background: var(--color-bg5);}
+#main_page .main_header {
+    height: 55vh;
+    background-image: linear-gradient(rgba(0,0,0,0.65)),url('../assets/img/header.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#main_page .main_header_content {
+    padding-top: 70px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+@media(min-width:768px){
+    #main_page .main_header {
+        height: 90vh;
+        background-position: top;
+    }
+    #main_page .main_header_content {gap: 20px;}
+}

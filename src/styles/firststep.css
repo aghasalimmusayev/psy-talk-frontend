@@ -44,8 +44,9 @@
     display: flex;
     justify-content: center;
 }
-.firststep_button button{
+.firststep_button a{
     width: 180px;
+    text-align: center;
     padding: 8px;
     border: none;
     border-radius: 8px;
@@ -89,7 +90,7 @@
         font-size: 1.1rem;
         width: 95%;
     }
-    .firststep_button button{
+    .firststep_button a{
         width: 200px;
         padding: 12px;
         border-radius: 10px;

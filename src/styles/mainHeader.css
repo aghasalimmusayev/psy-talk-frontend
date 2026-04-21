@@ -1,17 +1,3 @@
-.main_header {
-    height: 55vh;
-    background-image: linear-gradient(rgba(0,0,0,0.65)),url('../assets/img/header.png');
-    background-position: center;
-    background-size: cover;
-}
-.main_header_content {
-    padding-top: 70px;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
 .welcome_text {
     font: 400 0.9rem var(--font-main);
     color: var(--color-text3);
@@ -93,11 +79,6 @@
 }
 
 @media(min-width:768px){
-    .main_header {
-        height: 90vh;
-        background-position: top;
-    }
-    .main_header_content {gap: 20px;}
     .welcome_text {font-size: 1.2rem;}
     .content_heading {
         font-size: 3rem;

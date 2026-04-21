@@ -1,5 +1,8 @@
 .header_bg {
     /* Bura her page-de teyin olunmus background-image teyin ede bilersiz; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .header_bg .container {width: 100%;}
 .header_bg .header_content {
@@ -9,7 +12,6 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
 }
 .header_bg .content_heading {
     font: 400 1.7rem var(--font-main);
@@ -20,9 +22,8 @@
     color: var(--color-text14);
     text-align: center;
     width: 100%;
-    margin-top: 30px;
 }
-.header_bg .content_search_box {display: none;}
+.header_bg .content_search_box {margin-top: 30px;}
 
 @media(min-width:768px) {
     .header_bg .content_heading {font: 500 2rem var(--font-main);}

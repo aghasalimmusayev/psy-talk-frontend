@@ -7,11 +7,12 @@
     align-items: center;
     justify-content: center;
 }
+#ourServices .content_search_box {display: none;}
 #ourServices .content_heading {width: 98%;}
 #ourServices .content_text {width: 95%;}
 
 @media(min-width:768px) {
-    #services .header_bg {
+    #ourServices .header_bg {
         height: 70vh;
         background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/services.png');
         background-size: cover;
