@@ -1,4 +1,8 @@
 #psychologistsList {padding: 50px 0;}
+.psy_list {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
 .psy_list_item {
     width: 100%;
     border: none;
@@ -75,3 +79,11 @@
     color: var(--color-text6);
 }
 .psy_list_btn {margin-top: 20px;}
+
+@media(min-width:768px) {
+    .psy_list {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}

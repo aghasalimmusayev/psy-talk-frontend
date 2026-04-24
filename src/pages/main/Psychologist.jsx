@@ -5,6 +5,7 @@ import { FaRegStar } from "react-icons/fa";
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { getAllUsers } from '../../redux/slices/userSlice';
+import { Link } from 'react-router-dom';
 
 export default function Psychologist() {
 
@@ -18,7 +19,7 @@ export default function Psychologist() {
     return (
         <div className='psychologist'>
             <img src={psychologists_img} alt="psychologists" />
-            <h4 className='psychologist_name'>Dr.Sarah Johnson</h4>
+            <Link to={'/aboutPsychologist'} className='psychologist_name'>Dr.Sarah Johnson</Link>
             <h5 className='psychologist_profession'>Klinik Psixoloq</h5>
             <div className='raiting'>
                 <div className='raiting_stars'>

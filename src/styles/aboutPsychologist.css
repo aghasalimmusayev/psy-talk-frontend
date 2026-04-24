@@ -1,0 +1,15 @@
+#aboutPsychologist .header_bg {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65)), url('../assets/img/psychologistsPage_header.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#aboutPsychologist .content_heading {width: 100%;}
+
+@media(min-width:768px) {
+    #aboutPsychologist .content_heading {width: 100%;}
+    #aboutPsychologist .header_bg .content_text {width: 80%;}
+}
