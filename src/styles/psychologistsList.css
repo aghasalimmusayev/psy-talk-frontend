@@ -1,0 +1,77 @@
+#psychologistsList {padding: 50px 0;}
+.psy_list_item {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 10px 1px var(--color-shadow);
+}
+.psy_list_top {display: flex;}
+.psy_list_top_content {padding-left: 10px;}
+.psy_name {
+    font: 400 1.2rem var(--font-main);
+    color: var(--color-text6);
+}
+.psy_experience {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    font: 400 1rem var(--font-main);
+    color: var(--color-text5);
+    margin: 10px 0;
+}
+.psy_professions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.psy_professions span {
+    padding: 4px 12px;
+    border: 1px solid var(--color-border11);
+    border-radius: 12px;
+    background: var(--color-bg20);
+    font: 400 0.9rem var(--font-main);
+    color: var(--color-text6);
+}
+.psy_list_img {
+    flex-shrink: 0;
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    border: 7px solid var(--color-border);
+    overflow: hidden;
+}
+.psy_list_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.psy_list_line {
+    border: 1px solid var(--color-border4);
+    width: 100%;
+    margin: 10px 0 15px;
+}
+.psy_list_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.seans_price_label {
+    font: 400 1rem var(--font-main);
+    color: var(--color-text5);   
+}
+.seans_price_num {
+    font: 400 1rem var(--font-main);
+    color: var(--color-text20);
+    margin: 10px 0;
+}
+.seans_price_num span {color: var(--color-text5);}
+.psy_rating_result {
+    display: flex;
+    gap: 10px;
+}
+.psy_rating_result_num {
+    font: 400 1rem var(--font-main);
+    color: var(--color-text6);
+}
+.psy_list_btn {margin-top: 20px;}

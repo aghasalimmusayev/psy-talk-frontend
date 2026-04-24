@@ -1,5 +1,6 @@
 import '../../styles/psychologistsPage.css'
 import Header from '../../components/headers/Header'
+import PsychologistsList from './PsychologistsList'
 
 export default function PsychologistsPage() {
     return (
@@ -7,7 +8,7 @@ export default function PsychologistsPage() {
             <Header
                 heading={"Sizin üçün uyğun psixoloqu tapın"}
                 text={"Lisenziyalı mütəxəssislərlə əlaqə qurun — narahatlıq, depressiya, münasibətlər və daha çox sahədə ixtisaslaşmış peşəkarlar sizi gözləyir."} />
-                
+            <PsychologistsList />
         </main>
     )
 }

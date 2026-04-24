@@ -1,2 +1,0 @@
-- Links-de hover
-- scrollTop yarat
