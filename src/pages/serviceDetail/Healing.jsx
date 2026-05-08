@@ -18,7 +18,7 @@ export default function Healing() {
                         <li>Stress və narahatlığın idarə olunması</li>
                         <li>Akademik və məktəblə bağlı məsləhət xidməti</li>
                     </ul>
-                    <div className='other_healing_types'><Link to={'/'}>Digər xidmətlər</Link></div>
+                    <div className='other_healing_types'><Link to={'/services'}>Digər xidmətlər</Link></div>
                 </div>
             </div>
         </section>

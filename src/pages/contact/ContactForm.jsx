@@ -13,7 +13,7 @@ export default function ContactForm() {
                         <input type="phone" name="phone" id="" placeholder="Telefon nömrəniz" />
                     </div>
                     <textarea name="text" id="" placeholder='Mövzu'></textarea>
-                    <button type='submit' className="contact_form_btn">
+                    <button type='submit' className="contact_form_btn blue_button">
                         <span>Göndər</span>
                         <IoIosArrowRoundForward style={{ fontSize: "32px" }} />
                     </button>

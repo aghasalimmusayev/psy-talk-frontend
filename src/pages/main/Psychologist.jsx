@@ -1,4 +1,3 @@
-import MainButton from '../../components/common/MainButton'
 import psychologists_img from '../../assets/img/Psychologists.jpg'
 import { FaStar } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
@@ -33,7 +32,7 @@ export default function Psychologist() {
             </div>
             <hr className='psychologist_hr' />
             <p className='psychologist_text'>Peşəkar və qayğıkeş psixoloq sizin yanınızda</p>
-            <MainButton text={"Qəbula yazılmaq"} to={'/'} />
+            <Link className='blue_button' to={'/'}>Qəbula yazılmaq</Link>
         </div>
     )
 }

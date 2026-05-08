@@ -9,6 +9,7 @@ export default function PsychologistsPage() {
                 heading={"Sizin üçün uyğun psixoloqu tapın"}
                 text={"Lisenziyalı mütəxəssislərlə əlaqə qurun — narahatlıq, depressiya, münasibətlər və daha çox sahədə ixtisaslaşmış peşəkarlar sizi gözləyir."} />
             <PsychologistsList />
+            {/* <Filteration/> */}
         </main>
     )
 }

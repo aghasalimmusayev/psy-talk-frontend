@@ -1,6 +1,6 @@
 import '../../styles/callToAction.css'
-import MainButton from '../../components/common/MainButton'
 import callToActionImg from '../../assets/img/callToAction_img.jpg'
+import { Link } from 'react-router-dom'
 
 export default function CallToAction() {
     return (
@@ -11,7 +11,7 @@ export default function CallToAction() {
                     <h3 className='call_to_action_heading'>Fikirləriniz və hisslərinizi anlamağa yönəlmiş fərdi seanslar.</h3>
                     <p className='call_to_action_text'>Emosional sağlamlıq yolunda ilk addımı atın. Bu gün seans üçün
                         qeydiyyatdan keçin və özünüzün daha sağlam və xoşbəxt versiyasını yaratmağa başlayın.</p>
-                    <MainButton text={"Görüş təyin et"} />
+                    <Link className='blue_button' to={'/'}>Görüş təyin et</Link>
                 </div>
             </div>
         </section>

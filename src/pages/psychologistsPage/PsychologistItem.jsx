@@ -1,4 +1,3 @@
-import MainButton from '../../components/common/MainButton'
 import psyImg from '../../assets/img/Psychologists.jpg'
 import { FaStar } from "react-icons/fa";
 import { FaRegStar } from "react-icons/fa";
@@ -41,7 +40,7 @@ export default function PsychologistItem() {
                     </div>
                 </div>
                 <div className="psy_list_btn">
-                    <MainButton text={"Qəbula Yazılmaq"} to={'/'} />
+                    <Link className='blue_button' to={'/'}>Qəbula Yazılmaq</Link>
                 </div>
             </div>
         </div>

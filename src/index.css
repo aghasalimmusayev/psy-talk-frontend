@@ -10,10 +10,21 @@ a{text-decoration: none;}
   width: 90%;
   margin: auto;
 }
+.blue_button {
+    width: fit-content;
+    background: var(--color-mainbg);
+    border-radius: 7px;
+    color: var(--color-text3);
+    font: 400 1rem var(--font-main);
+    padding: 8px 20px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    outline: none;
+}
 
 @media(min-width:768px){
   .container {max-width: 1280px;}
-
 }
 
 :root {
@@ -62,6 +73,8 @@ a{text-decoration: none;}
   --color-text20: #3B53D7;
   --color-text21: #0E1A5C;
   --color-text22: #1F1F1F;
+  --color-text23: #D8DEFF;
+  --color-text24: #3A86FF;
 
   --color-border: #1B33B7;
   --color-border2: #3D3C3D;
@@ -74,6 +87,7 @@ a{text-decoration: none;}
   --color-border9: #F2F2F2;
   --color-border10: #162992;
   --color-border11: #E8ECFF;
+  --color-border12: #D8DEFF;
 
   --color-shadow: #d8deffdd;
 }

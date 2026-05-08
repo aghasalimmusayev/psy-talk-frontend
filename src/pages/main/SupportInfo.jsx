@@ -1,7 +1,7 @@
 import '../../styles/supportInfo.css'
 import psyImg from '../../assets/img/pyschologic_support.png'
 import star from '../../assets/img/star.png'
-import MainButton from '../../components/common/MainButton'
+import { Link } from 'react-router-dom'
 
 export default function Main() {
     return (
@@ -21,7 +21,7 @@ export default function Main() {
                     etməkdir. Platformamız vasitəsilə istifadəçilər fərqli sahələr üzrə ixtisaslaşmış psixoloqlarla əlaqə
                     yarada, onların profillərini incələyə və ehtiyaclarına uyğun mütəxəssisi seçə bilirlər.
                 </p>
-                <MainButton text={"Ətraflı bax"} to={'/'}/>
+                <Link className='blue_button' to={'/'}>Ətraflı bax</Link>
             </div>
         </div>
     )
