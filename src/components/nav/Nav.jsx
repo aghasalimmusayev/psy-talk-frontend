@@ -38,7 +38,7 @@ export default function Nav() {
                     <li><NavLink onClick={() => setLinks(false)} to={'/contact'}>Əlaqə</NavLink></li>
                     <li className='mob_reserve_button'><Link to={'/'}>Görüş təyin et</Link></li>
                 </ul>
-                <div className='desk_reserve_button'><Link to={'/'}>Login</Link></div>
+                <div className='desk_reserve_button'><Link to={'/login'}>Login</Link></div>
                 <div className='menu_bar'><Switch onChange={setLinks} checked={links} /></div>
             </div>
         </nav>

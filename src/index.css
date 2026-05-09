@@ -50,6 +50,7 @@ a{text-decoration: none;}
   --color-bg18: #0B1449;
   --color-bg19: #5B483F;
   --color-bg20: #F9FAFF;
+  --color-bg21: #F7FBFF;
   
   --color-text: #000;
   --color-text2: #1B33B7;
@@ -88,6 +89,8 @@ a{text-decoration: none;}
   --color-border10: #162992;
   --color-border11: #E8ECFF;
   --color-border12: #D8DEFF;
+  --color-border13: #D4D7E3;
+  --color-border14: #CFDFE2;
 
   --color-shadow: #d8deffdd;
 }

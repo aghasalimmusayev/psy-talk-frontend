@@ -9,6 +9,9 @@ import ServiceDetail from './pages/serviceDetail/ServiceDetail'
 import PsychologistsPage from './pages/psychologistsPage/PsychologistsPage'
 import Contact from './pages/contact/Contact'
 import AboutPsychologist from './pages/aboutPsychologist/AboutPsychologist'
+import Login from './pages/auth/Login'
+import Register from './pages/auth/Register'
+import ResetPassword from './pages/auth/ResetPassword'
 
 function App() {
 
@@ -25,6 +28,9 @@ function App() {
           <Route path='/psychologists' element={<PsychologistsPage />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/aboutPsychologist' element={<AboutPsychologist />} />
+          <Route path='/login' element={<Login />} />
+          <Route path='/register' element={<Register />} />
+          <Route path='/resetPassword' element={<ResetPassword />} />
         </Route >
 
       </Routes>
