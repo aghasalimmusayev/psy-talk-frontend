@@ -120,10 +120,11 @@
         max-width: 700px;
         margin: 20px auto 40px;
     }
-    .question_text {font-size: 1.2rem;}
+    .question_text {font-size: 1.3rem;}
 
 }
 @media(min-width:1220px){
     .faq_img_shadow {height: 550px;}
     .faq_img_shadow {bottom: -50px;}
+    .faq_answer {font-size: 1rem;}
 }

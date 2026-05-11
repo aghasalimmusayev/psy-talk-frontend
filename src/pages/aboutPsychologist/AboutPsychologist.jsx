@@ -7,6 +7,7 @@ export default function AboutPsychologist() {
             <Header
                 heading={"Sizin üçün uyğun psixoloqu tapın"}
                 text={"Lisenziyalı mütəxəssislərlə əlaqə qurun — narahatlıq, depressiya, münasibətlər və daha çox sahədə ixtisaslaşmış peşəkarlar sizi gözləyir."} />
+            <section className='container aboutPsy_content'>Psixologun etrfali melumatlari</section>
         </main>
     )
 }
